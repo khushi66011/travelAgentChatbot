@@ -1,0 +1,192 @@
+📘 PROJECT DOCUMENTATION
+Travel Agent – Travel Information Chatbot
+1️⃣ Introduction
+
+Travel Agent is a web-based chatbot application developed using Python (Flask), HTML, CSS, and JavaScript.
+The system provides instant travel-related information such as visa requirements, vaccination details, currency information, emergency contacts, and local customs.
+
+The main objective of this project is to create an intelligent travel assistance system that reduces dependency on manual travel agents and provides quick and structured travel guidance.
+
+2️⃣ Problem Statement
+
+Travelers often face difficulty in finding reliable and structured travel information such as:
+
+Visa requirements
+
+Required vaccinations
+
+Currency details
+
+Emergency contact numbers
+
+Local customs
+
+Searching this information manually can be time-consuming and confusing.
+
+The solution is to develop a chatbot that provides instant travel information in a simple interactive format.
+
+3️⃣ Objectives
+
+To develop an interactive travel information chatbot
+
+To provide visa and travel requirement details
+
+To implement a structured YES/NO conversation flow
+
+To reduce travel agent workload
+
+To improve traveler satisfaction
+
+4️⃣ Technologies Used
+Technology	Purpose
+Python	Backend programming
+Flask	Web framework
+HTML	Structure of webpage
+CSS	Styling and UI design
+JavaScript	Frontend interactivity
+JSON	Data exchange format
+5️⃣ System Architecture
+
+The system follows a client-server architecture:
+
+User (Browser)
+⬇
+Frontend (HTML, CSS, JavaScript)
+⬇
+Flask Backend (app.py)
+⬇
+Destination Data Dictionary
+⬇
+Response sent back to User
+
+6️⃣ Working of the System
+
+User opens the chatbot in the browser.
+
+Bot displays menu options:
+
+Check Visa
+
+Travel Info
+
+Help
+
+User selects an option.
+
+If destination is entered:
+
+Backend checks destination dictionary.
+
+Retrieves required travel details.
+
+Bot displays:
+
+Visa Required (YES/NO)
+
+Vaccination Info
+
+Currency
+
+Emergency Contact
+
+Local Customs
+
+User can restart conversation anytime.
+
+7️⃣ Features
+
+Visa Requirements Checker
+
+Vaccination Information
+
+Currency Information
+
+Emergency Contact Details
+
+Local Customs Information
+
+Interactive Button-Based Chat
+
+Restart Conversation Feature
+
+Lightweight and Fast System
+
+8️⃣ Project Structure
+travel Agent/
+│
+├── app.py
+├── templates/
+│     └── index.html
+└── static/
+      ├── style.css
+      └── script.js
+
+9️⃣ How to Run the Project
+Step 1: Install Flask
+pip install flask
+
+Step 2: Run the Application
+python app.py
+
+Step 3: Open in Browser
+http://127.0.0.1:5000
+
+🔟 Sample Output
+
+Destination: FRANCE
+
+Visa Required: YES
+Vaccination: Routine + COVID recommended
+Currency: Euro (EUR)
+Emergency Contact: 112
+Local Customs: Say Bonjour while greeting. Tipping 5-10%.
+
+1️⃣1️⃣ Advantages
+
+Quick and instant travel information
+
+Reduces manual search effort
+
+Easy-to-use interface
+
+Lightweight application
+
+Cost-efficient solution
+
+1️⃣2️⃣ Limitations
+
+Limited destination dataset
+
+No real-time API integration
+
+No booking system
+
+No database storage
+
+1️⃣3️⃣ Future Enhancements
+
+Support for 50+ destinations
+
+Multilingual support (10+ languages)
+
+Real visa logic based on passport country
+
+Database integration
+
+Travel booking integration
+
+Analytics dashboard
+
+Travel insurance recommendations
+
+1️⃣4️⃣ Conclusion
+
+The Travel Agent chatbot successfully provides structured and instant travel information through a user-friendly interface.
+It demonstrates how web technologies and backend logic can be combined to build an intelligent travel assistance system.
+
+This project reduces the dependency on manual travel agents and improves efficiency in accessing travel-related information.
+
+👩‍💻 Developed By
+
+Damyanti Lohiya
+Travel Agent Project
